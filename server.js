@@ -62,9 +62,9 @@ const gameConsts = {
   grMode: 2,
 };
 
-const telegramToken = checkEnvironments('TELEGRAM_TOKEN');
+const telegramToken = checkEnvironments('959108984:AAFt_JXY0-niLhhQbmSHBVvegm1xp2J7C3M');
 const bot = new Bot(telegramToken, { polling: true });
-const tSubscryber = checkEnvironments('TELEGRAM_CHANNEL');
+const tSubscryber = checkEnvironments('-1001167464359');
 
 
 async function checkGamesData(games){
